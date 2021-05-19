@@ -101,25 +101,8 @@
       <categories>
         <category>项目介绍</category>
       </categories>
-  </entry>
-  <entry>
-    <title>摄像机云存功能调研</title>
-    <url>/2021/05/19/%E6%91%84%E5%83%8F%E6%9C%BA%E4%BA%91%E5%AD%98%E5%8A%9F%E8%83%BD%E8%B0%83%E7%A0%94/</url>
-    <content><![CDATA[<blockquote>
-<p>test pdf publish</p>
-</blockquote>
-<span id="more"></span>
-
-<div class="pdf-container" data-target="./云存功能产品需求.pdf" data-height="500px"></div>
-
-]]></content>
-      <categories>
-        <category>项目介绍</category>
-      </categories>
       <tags>
-        <tag>产品调研</tag>
-        <tag>智能摄像机</tag>
-        <tag>AIOT</tag>
+        <tag>flow</tag>
       </tags>
   </entry>
   <entry>
@@ -135,6 +118,9 @@
       <categories>
         <category>项目介绍</category>
       </categories>
+      <tags>
+        <tag>flow</tag>
+      </tags>
   </entry>
   <entry>
     <title>正则表达式匹配规则表</title>
@@ -460,6 +446,24 @@
       </categories>
       <tags>
         <tag>正则表达式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>流量营销方案</title>
+    <url>/2021/05/19/%E6%B5%81%E9%87%8F%E8%90%A5%E9%94%80%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<div class="note default"><p>为证券公司制定的流量营销方案</p>
+</div>
+
+<span id="more"></span>
+
+<div class="pdf-container" data-target="/pdf/流量营销方案.pdf" data-height="500px"></div>
+]]></content>
+      <categories>
+        <category>项目介绍</category>
+      </categories>
+      <tags>
+        <tag>营销方案</tag>
+        <tag>pdf</tag>
       </tags>
   </entry>
   <entry>
