@@ -110,7 +110,9 @@
 </blockquote>
 <span id="more"></span>
 
-<div class="pdf-container" data-target="云存功能产品需求.pdf" data-height="500px"></div>]]></content>
+<div class="pdf-container" data-target="./云存功能产品需求.pdf" data-height="500px"></div>
+
+]]></content>
       <categories>
         <category>项目介绍</category>
       </categories>
@@ -137,7 +139,7 @@
   <entry>
     <title>正则表达式匹配规则表</title>
     <url>/2015/09/26/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D%E8%A7%84%E5%88%99%E8%A1%A8/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2021/05/19/RdHaWfByjl4GcoL.jpg" alt="b3387b3185e237b8f7dea85d750f33d91b697772"></p>
+    <content><![CDATA[<p><img src="https://i.loli.net/2021/05/19/3hJs6ltmZwR9qdD.png" alt="card"></p>
 <span id="more"></span>
 
 <h2 id="字符及含义"><a href="#字符及含义" class="headerlink" title="字符及含义"></a>字符及含义</h2><table>
@@ -319,11 +321,15 @@
 <h2 id="常用正则表达式"><a href="#常用正则表达式" class="headerlink" title="常用正则表达式"></a>常用正则表达式</h2><table>
 <thead>
 <tr>
-<th>用户名</th>
-<th>/^[a-z0-9_-]{3,16}$/</th>
+<th>字符</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody><tr>
+<td>用户名</td>
+<td>/^[a-z0-9_-]{3,16}$/</td>
+</tr>
+<tr>
 <td>密码</td>
 <td>/^[a-z0-9_-]{6,18}$/</td>
 </tr>
@@ -354,6 +360,98 @@
 <tr>
 <td>Unicode编码中的汉字范围</td>
 <td>/^[\u2E80-\u9FFF]+$/</td>
+</tr>
+</tbody></table>
+<h2 id="Everything-Regex"><a href="#Everything-Regex" class="headerlink" title="Everything Regex"></a>Everything Regex</h2><table>
+<thead>
+<tr>
+<th>字符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>a|b</td>
+<td>匹配 a 或  b</td>
+</tr>
+<tr>
+<td>gr(a|e)y</td>
+<td>匹配 gray 或 grey</td>
+</tr>
+<tr>
+<td>.</td>
+<td>匹配任一字符</td>
+</tr>
+<tr>
+<td>[abc]</td>
+<td>匹配任一字符: a 或 b 或 c</td>
+</tr>
+<tr>
+<td>[^abc]</td>
+<td>匹配任一字符, 但不包括 a, b, c</td>
+</tr>
+<tr>
+<td>[a-z]</td>
+<td>匹配从 a 到 z 之间的任一字符</td>
+</tr>
+<tr>
+<td>[a-zA-Z]</td>
+<td>匹配从 a 到 z, 及从 A 到 Z 之间的任一字符</td>
+</tr>
+<tr>
+<td>^</td>
+<td>匹配文件名的头部</td>
+</tr>
+<tr>
+<td>$</td>
+<td>匹配文件名的尾部</td>
+</tr>
+<tr>
+<td>( )</td>
+<td>匹配标记的子表达式</td>
+</tr>
+<tr>
+<td>\n</td>
+<td>匹配第 nth 个标记的子表达式, nth 代表 1 到 9</td>
+</tr>
+<tr>
+<td>\b</td>
+<td>匹配字词边界</td>
+</tr>
+<tr>
+<td>*</td>
+<td>匹配前一项内容 0 或多次</td>
+</tr>
+<tr>
+<td>?</td>
+<td>匹配前一项内容 0 或 1 次</td>
+</tr>
+<tr>
+<td>+</td>
+<td>匹配前一项内容 1 或多次</td>
+</tr>
+<tr>
+<td>*?</td>
+<td>匹配前一项内容 0 或多次 (懒人模式)</td>
+</tr>
+<tr>
+<td>+?</td>
+<td>匹配前一项内容 1 或多次 (懒人模式)</td>
+</tr>
+<tr>
+<td>{x}</td>
+<td>匹配前一项内容 x 次</td>
+</tr>
+<tr>
+<td>{x,}</td>
+<td>匹配前一项内容 x 或多次</td>
+</tr>
+<tr>
+<td>{x,y}</td>
+<td>匹配前一项内容次数介于 x 和 y 之间</td>
+</tr>
+<tr>
+<td>\</td>
+<td>特殊转义字符</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -574,7 +672,7 @@
     <title>什么是美规车?</title>
     <url>/2015/12/16/%E7%BE%8E%E8%A7%84%E5%92%8C%E4%B8%AD%E8%A7%84%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
     <content><![CDATA[<p><code>美规车</code>——即指国外生产厂同一流水线上的电脑显示该车销往美洲地区、南美和北美。当然同一车型日前市场上已有个别欧规和中东规格车， 同样情况显示销往欧洲地区和中东地区。</p>
-<p><img src="http://ww1.sinaimg.cn/large/006agIcvgy1g1kg7yd64mj31hc0uhdru.jpg"></p>
+<p><img src="https://ww1.sinaimg.cn/large/006agIcvgy1g1kg7yd64mj31hc0uhdru.jpg"></p>
 <span id="more"></span>
 <p>美规车当中的“规”字是规格的意思，那么美规车就是“美国规格汽车”。同类的名词还有：中规车，日规车；这样的命名对于洲际也适用。<br>美规车就是制造商迎合北美地区法律法规而制造出来可以在可以在北美地区【美国】道路行驶的汽车。<br>美规车其他分类有：美系美规车(林肯、凯迪拉克、福特等)，日系美规车(霸道、凌志等)，欧系美规车(宝马、奔驰等)。<br>美规车就是经销商通过贸易公司从美国4S店直接进口过来的美国规格的车辆。<br>有些车还有中东规格的车辆，日系的这种车辆很多，大部分日本汽车制造商都有制造中东规格的车(丰田57.47等)。<br>美规车有小批量和三C(认证)之分。4S店经营进口中规车都是经过三C认证的。<br>美规车也就是进口车 中规车就是汽车生产厂商生产出来符合中国法令规定的车辆。<br>中规车其他分类有：中国本国厂商制造出来的车辆(自主品牌)。<br>外国厂商中国设厂制造出来的车辆(多数都是联合方式如‘上海大众’‘一汽大众’)。<br>外国厂商国外制造符合中国法令并通过3C认证的车辆(奔驰，宝马等)。</p>
 <h3 id="美规车为什么便宜"><a href="#美规车为什么便宜" class="headerlink" title="美规车为什么便宜"></a>美规车为什么便宜</h3><p>美规车配置比较自由，配置可选 性强，中间只经过经销商，提车周期 短，不用加价提车省去了很多费用， 如果在配置基本相同的条件下，美规 车价格更低。<br>所谓美规车中规车中的“规” 实际上指交通法规而言，销往美国适 应美国交通法规的称为美规，销往中 国市场的成为中规车。</p>
@@ -591,9 +689,9 @@
   <entry>
     <title>设计心理学读书笔记</title>
     <url>/2018/12/18/%E8%AE%BE%E8%AE%A1%E5%BF%83%E7%90%86%E5%AD%A6/</url>
-    <content><![CDATA[<!-- ![](http://ww1.sinaimg.cn/large/006agIcvly1g1khwy9wc1j30r802i3yi.jpg) 
+    <content><![CDATA[<!-- ![](https://ww1.sinaimg.cn/large/006agIcvly1g1khwy9wc1j30r802i3yi.jpg) 
 -->
-<p><img src="http://ww1.sinaimg.cn/large/006agIcvly1g1ki3t5urrj30zk0l5q4z.jpg"></p>
+<p><img src="https://ww1.sinaimg.cn/large/006agIcvly1g1ki3t5urrj30zk0l5q4z.jpg"></p>
 <div class="note default"><p> <strong>好的设计2个重要特性：</strong></p>
 <ul>
 <li>可视性: 所设计的产品能不能让用户明白怎样操作是合理的，在什么位置及如何操作</li>
@@ -607,7 +705,7 @@
 <li>交互设计：重点关注人与技术的互动. 目标是增强人们理解可以做什么，正在发生什么，以及已经发生了什么. 交互设计借鉴了心理学、设计、艺术和情感等基本原则来保证用户得到积极的、愉悦的体验. </li>
 <li>体验设计：设计产品、流程，服务，以及事件和环境的实践，重点关注整体体验的质量和愉悦感. </li>
 </ul>
-<!-- ![原则](http://ww1.sinaimg.cn/large/006agIcvly1g0jp96t83xj312z0a141g.jpg)-->
+<!-- ![原则](https://ww1.sinaimg.cn/large/006agIcvly1g0jp96t83xj312z0a141g.jpg)-->
 <div class="tabs" id="design-category"><ul class="nav-tabs"><li class="tab active"><a href="#design-category-1">工业设计 交互设计 体验设计</a></li><li class="tab"><a href="#design-category-2">以人为本的设计</a></li></ul><div class="tab-content"><div class="tab-pane active" id="design-category-1"><p>这是一些侧重点不同的领域</p></div><div class="tab-pane" id="design-category-2"><p>为了确保设计符合潜在用户需求和能力的一种流程</p></div></div></div>
 
 <h2 id="示能与意符的概念"><a href="#示能与意符的概念" class="headerlink" title="示能与意符的概念"></a>示能与意符的概念</h2><p>“<code>示能</code>”这个词，是指一个物理对象与人之间的关系（无论是动物还是人类，甚至机器和机器人，它们之间发生的任何交互作用）. </p>
@@ -619,7 +717,7 @@
 <li>意符是一种提示，特别告诉用户可以采取什么行为，以及应该怎么操作. <code>意符</code>必须是可感知的，否则它们不起作用. </li>
 </ul>
 <p>我把提供给用户的适用信息组合叫作<a href='https://zh.wikipedia.org/wiki/%E6%A6%82%E5%BF%B5%E6%A8%A1%E5%9E%8B'>系统映像<i class="fas fa-external-link-alt"></i></a></p>
-<img src="http://ww1.sinaimg.cn/mw690/006agIcvly1g0jpinuqr6j30p50pm47f.jpg" width="50%" height="50%">
+<img src="https://ww1.sinaimg.cn/mw690/006agIcvly1g0jpinuqr6j30p50pm47f.jpg" width="50%" height="50%">
 
 <p>自然的<code>映射</code>，利用空间类比得到直接的理解. 另有一些自然<code>映射</code>遵循知觉的原理，可以对控制和反馈模式进行自然分组或图式化. </p>
 <h2 id="行动的七个阶段"><a href="#行动的七个阶段" class="headerlink" title="行动的七个阶段"></a>行动的七个阶段</h2><p>一个是目标，三个执行步骤，和三个评估步骤.</p>
@@ -636,9 +734,9 @@
 </div>
 
 <p>我们可以使用<code>意符</code>、<code>约束</code>、<code>映射</code>和<code>概念模型</code>来消除执行的沟壑，也可以使用反馈和<code>概念模型</code>来消除评价的沟壑. </p>
-<!-- ![行动的7个阶段](http://ww1.sinaimg.cn/mw690/006agIcvly1g0jpkdynqfj30l80kxwh3.jpg) -->
+<!-- ![行动的7个阶段](https://ww1.sinaimg.cn/mw690/006agIcvly1g0jpkdynqfj30l80kxwh3.jpg) -->
 
-<img src="http://ww1.sinaimg.cn/mw690/006agIcvly1g0jplaky4oj30qf0ps78r.jpg" width="50%" height="50%">
+<img src="https://ww1.sinaimg.cn/mw690/006agIcvly1g0jplaky4oj30qf0ps78r.jpg" width="50%" height="50%">
 
 <center style="font-size: 12px;font-style: italic;margin: 0px 200px;">有助于回答执行类（做）的信息叫前馈（feedforward）. 有助于理解发生了什么的信息叫反馈（feedback）. 你怎么知道你能做什么？这就是前馈的作用</center>
 
@@ -673,10 +771,10 @@
 
 <p>利用声音作为<code>意符</code>：有时候并非每件物品都要被设计得可见. 那就利用声音</p>
 <h3 id="根本原因分析："><a href="#根本原因分析：" class="headerlink" title="根本原因分析："></a>根本原因分析：</h3><p>首先，大多数事故的发生没有单一的原因：通常会有多个事情出错，或者多个事件，只有要它们中的任何一个没有发生，就不会发生事故. 这就是著名的<strong>“詹姆斯·里森原则”</strong>（确定事故背后隐含的深层原因，而不是直接原因）其次，为什么一发现人为差错，根本原因分析就停下来了？如果机器设备停止工作了，我们会不停地分析，直到发现失效的零件. </p>
-<h2 id="人为差错分为两大类：失误和错误"><a href="#人为差错分为两大类：失误和错误" class="headerlink" title="人为差错分为两大类：失误和错误"></a>人为差错分为两大类：失误和错误</h2><img src="http://ww1.sinaimg.cn/mw690/006agIcvly1g0jplxthqsj30n00mhjzo.jpg" width="50%" height="50%">
+<h2 id="人为差错分为两大类：失误和错误"><a href="#人为差错分为两大类：失误和错误" class="headerlink" title="人为差错分为两大类：失误和错误"></a>人为差错分为两大类：失误和错误</h2><img src="https://ww1.sinaimg.cn/mw690/006agIcvly1g0jplxthqsj30n00mhjzo.jpg" width="50%" height="50%">
 <center style='font-size: 12px; font-style: italic;margin-bottom:20px;'>行为模式划分为三种，分别是基于技能的、规则的和知识的</center>
 
-<p><img src="http://ww1.sinaimg.cn/mw690/006agIcvly1g0jpmsgtjkj30xc0fzgs9.jpg" alt="行动与差错的深层关系"></p>
+<p><img src="https://ww1.sinaimg.cn/mw690/006agIcvly1g0jpmsgtjkj30xc0fzgs9.jpg" alt="行动与差错的深层关系"></p>
 <center style='font-size: 12px; font-style: italic;margin-bottom:20px;'>A-B</center>
 
 <p>在行动周期里，图A显示出行动的失误来自底层的四个阶段，而错误发生在上层的三个阶段. 记忆失效会影响每个阶段之间的过渡（图B中以X显示）. 较高层次的记忆失效会导致错误，若发生在较低层次则导致失误. </p>
@@ -695,11 +793,11 @@
 </ul>
 </div> 
 
-<h2 id="设计思维"><a href="#设计思维" class="headerlink" title="设计思维"></a>设计思维</h2><p>设计者已经发展出许多方法，可以避免拘泥于太容易实现但没有什么价值的解决方案. 他们将原始问题作为一种建议，而不是最终结果，然后集思广益，理解潜藏在问题背后真正的深层因素（像第五章描述的连续询问“五个为什么”，就是挖掘根本原因的方式之一）. 这样设计过程就会不断地反复和扩展. 设计师拒绝从初始问题一步就跳到解决方案. 相反，他们花时间确定真正的、根本的问题所在，然后，不是立即解决问题，而是停下来想一想更充分的潜在方案. 只有这样才能最后得出新的建议, 这个流程就叫作<code>设计思维</code>（designthinking）</p>
+<h2 id="设计思维设计者已经发展出"><a href="#设计思维设计者已经发展出" class="headerlink" title="设计思维设计者已经发展出"></a>设计思维设计者已经发展出</h2><p>设计者已经发展出许多方法，可以避免拘泥于太容易实现但没有什么价值的解决方案. 他们将原始问题作为一种建议，而不是最终结果，然后集思广益，理解潜藏在问题背后真正的深层因素（像第五章描述的连续询问“五个为什么”，就是挖掘根本原因的方式之一）. 这样设计过程就会不断地反复和扩展. 设计师拒绝从初始问题一步就跳到解决方案. 相反，他们花时间确定真正的、根本的问题所在，然后，不是立即解决问题，而是停下来想一想更充分的潜在方案. 只有这样才能最后得出新的建议, 这个流程就叫作<code>设计思维</code>（designthinking）</p>
 <p>设计思维有两个强大的工具，<code>以人为本的设计</code>思想和<code>双钻（发散—聚焦）设计模式</code>. </p>
 <p><code>双钻（发散—聚焦）设计模式</code>：设计师经常从质疑拿到的问题开始设计之路：他们会扩大问题的范围，进一步分别检测问题之下隐藏的根本原因，然后聚焦于其中某一个问题的描述. 在研究制定解决方案的阶段，首先他们扩展可能的方案，再进行一次发散思考的过程. 最后，将这一切重归于某个合适的方案</p>
 <p>四个步骤：“发现”和“定义”，确认正确问题的发散和聚焦阶段；然后是“开发”和“交付”，制定正确方案的发散和聚焦阶段. </p>
-<p><img src="http://ww1.sinaimg.cn/mw690/006agIcvly1g0jpnomdi0j30se0matd2.jpg" alt="图解双钻设计模式"></p>
+<p><img src="https://ww1.sinaimg.cn/mw690/006agIcvly1g0jpnomdi0j30se0matd2.jpg" alt="图解双钻设计模式"></p>
 <p><code>以人为本的设计</code>，即确保满足用户的需求，设计出的产品具有易用性和可理解性，能够完成期待中的任务，并且拥有积极和愉悦的用户体验. 有效的设计需要满足一大堆限制<code>约束</code>和用户的期待，包括形状与外观，成本与功效，可靠性与效用，可理解性与易用性，友好的界面，拥有此产品的自豪感，还有用户实际使用中的快乐等等. <code>以人为本的设计</code>就是实现所有这些要求的流程，它强调两个方面：解决正确的问题，采用满足用户需求和能力的恰当方式. </p>
 <div class="note info"><h4 id="以人为本的设计流程有四个行动步骤："><a href="#以人为本的设计流程有四个行动步骤：" class="headerlink" title="以人为本的设计流程有四个行动步骤："></a>以人为本的设计流程有四个行动步骤：</h4><ul>
 <li>观察</li>
@@ -709,7 +807,7 @@
 </ul>
 </div>
 
-<img src='http://ww1.sinaimg.cn/mw690/006agIcvly1g0jpoudgchj30lz0ld776.jpg' width='50%'>
+<img src='https://ww1.sinaimg.cn/mw690/006agIcvly1g0jpoudgchj30lz0ld776.jpg' width='50%'>
 
 <p>观察潜在目标人群，激发创意，制作样品，然后测试. 不断循环这个过程，直到满意为止. 这也经常被称作“螺旋式理论”（与这里描绘的环状稍有不同），强调每一轮的重复都要有提升、进展. </p>
 <h4 id="以活动为中心的设计与以人为本的设计"><a href="#以活动为中心的设计与以人为本的设计" class="headerlink" title="以活动为中心的设计与以人为本的设计"></a>以活动为中心的设计与以人为本的设计</h4><div class='note primary'>
