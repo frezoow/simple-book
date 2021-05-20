@@ -69,6 +69,31 @@
       </tags>
   </entry>
   <entry>
+    <title>next主题markdown引用本地图片路径问题</title>
+    <url>/2021/05/18/next%E4%B8%BB%E9%A2%98%E5%BC%95%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<div class="note default"><p>next主题在更新到v8.4后, 官方给出获取主题的方式提供2种, 一种为通过<code>git clone</code>的方式, 另一种通过<code>npm install</code>安装 hexo theme, 俩种方式主题根目录的path不一致, 所以会导致以前发布的引用本地路径的方法失效了, 目前没找到一个清楚描述解决方案的, 遂整理出方法给遇到同样问题的网友们</p>
+</div>
+
+<p>首先, 你的主题通过 git 还是通过 npm 安装, git 安装的方式, 主题路径为<code>./your blog home path/themes/next-xxx/</code>, 此时图片可以放置在此文件夹下的<strong>soure/images/</strong>, 引用的时候写法为:</p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/images/xxx.jpg</span><br></pre></td></tr></table></figure>
+
+<p>如果是通过 npm 安装, 主题的路径变为<code>./your blog home path/node_modules/hexo-theme-next/</code>, 重点: **此时图片需要放在此目录的soure/images/下, 虽然引用的时候写法和上面相同, 这就是为什么很多明明写法一致引用却不显示图片的原因</p>
+<h2 id="引用本地pdf"><a href="#引用本地pdf" class="headerlink" title="引用本地pdf"></a>引用本地pdf</h2><p>pdf 引用可参考上面的逻辑, 需要注意安装方式, 然后把 pdf 位置放到指定的路径, 比如我的站点通过 npm 方式安装, 我会在<code>./my blog/node_modules/hexo-theme-next/source</code>下新建<code>pdf</code>文件夹, 引用的时候:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% pdf /pdf/[your pdf name].pdf %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>next 引用pdf需要在配置依赖, 详情可参见<a href="https://github.com/next-theme/theme-next-pdf">官方文档</a></p>
+]]></content>
+      <categories>
+        <category>next教程</category>
+      </categories>
+      <tags>
+        <tag>next</tag>
+        <tag>issue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>自媒体平台 - 多酷汽车网</title>
     <url>/2021/05/19/%E5%A4%9A%E9%85%B7%E6%B1%BD%E8%BD%A6/</url>
     <content><![CDATA[<div class="note default"><p>自媒体品牌<a href="#">汽车小咖</a>, 主要面向车主用户提供维护保养进口车资讯等, 自有媒体网站多酷汽车, 在网易, 腾讯, 今日头条, 易车, 一点资讯, 微博, 微信, UC资讯, 搜狐等平台平步发布</p>
@@ -710,6 +735,24 @@
       </categories>
       <tags>
         <tag>美规车</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>wyze智能家居App设备组方案</title>
+    <url>/2021/05/18/%E8%AE%BE%E5%A4%87%E7%BB%84ui/</url>
+    <content><![CDATA[<div class="note default"><p>智能家居<a href="https://www.wyze.com/">wyze App</a>引入设备组的管理概念, 方便用户多智能设备统一管理</p>
+</div>
+
+<span id="more"></span>
+
+<p><img src="/images/wyze%E8%AE%BE%E5%A4%87%E7%BB%84%E6%A6%82%E8%A7%88UI.png" alt="wyze设备组概览UI"></p>
+]]></content>
+      <categories>
+        <category>项目介绍</category>
+      </categories>
+      <tags>
+        <tag>ui</tag>
+        <tag>原型</tag>
       </tags>
   </entry>
   <entry>
